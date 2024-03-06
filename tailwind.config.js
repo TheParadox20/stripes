@@ -4,7 +4,16 @@ export default {
     "./index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'grey': '#DBDBDB',
+        'greenish': '#24AFB5',
+        'text':'#585757'
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
